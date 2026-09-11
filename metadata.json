@@ -1,0 +1,8 @@
+{
+  "name": "도디[DODI]_마일드 본 점토 및 슬립 주문 앱",
+  "description": "도예 작업자와 학생을 위한 점토·슬립 재료 확인 및 간편 주문, 관리자 주문/배송 관리 시스템",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

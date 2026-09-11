@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F8F6F2;
+    color: #2D2621;
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom pottery themed scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F0EBE3;
+}
+::-webkit-scrollbar-thumb {
+  background: #D3C7B7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BBAF9D;
+}

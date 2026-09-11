@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": "clay",
+      "name": "점토",
+      "price": 24000,
+      "capacity": "20L",
+      "weight": "약 19kg",
+      "isAvailable": true,
+      "description": "도예 작업실 및 대학 실기실용 고품질 조합 점토 (소성온도 1240~1280℃)",
+      "tags": [
+        "작업용",
+        "물레 성형",
+        "손성형"
+      ]
+    },
+    {
+      "id": "slip",
+      "name": "슬립",
+      "price": 30000,
+      "capacity": "20L",
+      "weight": "약 19kg",
+      "isAvailable": true,
+      "description": "석고 몰드 주입 성형(캐스팅) 및 기물 부착용 고균일 액상 백자 슬립",
+      "tags": [
+        "캐스팅용",
+        "석고 몰드 주입",
+        "접합용"
+      ]
+    }
+  ],
+  "settings": {
+    "studioName": "토도(土陶) 도예재료 보급소",
+    "bankName": "카카오뱅크",
+    "accountNumber": "3333083442125",
+    "accountHolder": "이혜선[도디DODI]",
+    "shippingNotice": "택배 및 운송은 매주 수요일입니다.",
+    "studioPhone": "010-8921-4500",
+    "googleSheetId": "1_YNGZj_H9oojAuXuzR6q8Qsp8hRjxclUoI0J21UqT5U",
+    "googleSheetUrl": "https://docs.google.com/spreadsheets/d/1_YNGZj_H9oojAuXuzR6q8Qsp8hRjxclUoI0J21UqT5U/edit",
+    "googleSheetName": "도디(DODI) 점토·슬립 주문 관리 대장",
+    "lastSyncedAt": "2026-09-11 05:56",
+    "autoSyncEnabled": true
+  },
+  "orders": [
+    {
+      "orderId": "POT-260908-1042",
+      "customerName": "이서윤",
+      "phoneNumber": "010-3456-7890",
+      "address": "서울시 마포구 와우산로 94 홍익대학교 조형관 402호",
+      "productId": "clay",
+      "product": "점토",
+      "quantity": 2,
+      "unitPrice": 24000,
+      "productPrice": 48000,
+      "shippingMethod": "택배",
+      "shippingFee": 13200,
+      "totalPrice": 61200,
+      "shippingScheduledDate": "2026년 09월 16일 (수)",
+      "status": "입금 완료",
+      "orderDate": "2026-09-11 10:25",
+      "updatedAt": "2026-09-11 11:40"
+    },
+    {
+      "orderId": "POT-260907-3918",
+      "customerName": "박준혁",
+      "phoneNumber": "010-9876-5432",
+      "address": "경기도 이천시 신둔면 도자예술로 62 백자스튜디오",
+      "productId": "slip",
+      "product": "슬립",
+      "quantity": 1,
+      "unitPrice": 30000,
+      "productPrice": 30000,
+      "shippingMethod": "택배",
+      "shippingFee": 6600,
+      "totalPrice": 36600,
+      "shippingScheduledDate": "2026년 09월 16일 (수)",
+      "status": "택배 발송",
+      "courierName": "경동택배",
+      "trackingNumber": "70182940192",
+      "orderDate": "2026-09-11 9:12",
+      "updatedAt": "2026-09-11 14:30"
+    },
+    {
+      "orderId": "POT-260905-8812",
+      "customerName": "최유진",
+      "phoneNumber": "010-5544-3322",
+      "address": "대전광역시 유성구 대학로 99 충남대학교 예술대학 도예전공",
+      "productId": "clay",
+      "product": "점토",
+      "quantity": 3,
+      "unitPrice": 24000,
+      "productPrice": 72000,
+      "shippingMethod": "택배",
+      "shippingFee": 19800,
+      "totalPrice": 91800,
+      "shippingScheduledDate": "2026년 09월 09일 (수)",
+      "status": "도착 완료",
+      "courierName": "경동택배",
+      "trackingNumber": "68291048201",
+      "orderDate": "2026-09-05 15:40",
+      "updatedAt": "2026-09-09 17:10"
+    }
+  ]
+}
